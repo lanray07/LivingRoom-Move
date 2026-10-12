@@ -1,0 +1,102 @@
+[
+  {
+    "id": "chair-introduction",
+    "durationSeconds": 300,
+    "voice": "Microsoft Hazel Desktop",
+    "synthetic": true,
+    "humanRecorded": false,
+    "rights": "REVIEW_ONLY_DISTRIBUTION_RIGHTS_NOT_VERIFIED",
+    "audioSha256": "e86815e2d0d9ad2c8648e10b4dd40967272fd2a82b5085400ade5c8c05311917",
+    "captionsSha256": "8f8b378f3e7c31c443bca201d74dd7d0d899a7353aacdccc25553742c89893bb"
+  },
+  {
+    "id": "chair-everyday",
+    "durationSeconds": 600,
+    "voice": "Microsoft Hazel Desktop",
+    "synthetic": true,
+    "humanRecorded": false,
+    "rights": "REVIEW_ONLY_DISTRIBUTION_RIGHTS_NOT_VERIFIED",
+    "audioSha256": "483210b13071b4fe0f1c113d1c101bbc290fa45e4a2eec294292221d23ed1860",
+    "captionsSha256": "616267ef702133cc045d384ec72d9de83787e985a5ecacd459379e4fab2fab56"
+  },
+  {
+    "id": "chair-unhurried",
+    "durationSeconds": 900,
+    "voice": "Microsoft Hazel Desktop",
+    "synthetic": true,
+    "humanRecorded": false,
+    "rights": "REVIEW_ONLY_DISTRIBUTION_RIGHTS_NOT_VERIFIED",
+    "audioSha256": "519e0fb22e4df3424fa9fef22b07d9e6cad10e62998f2a5d8768e63dada5b4e0",
+    "captionsSha256": "9720cff7226b8136d23dae7f560d2a7bfc1ae6df43350f88192252a432363489"
+  },
+  {
+    "id": "mobility-short",
+    "durationSeconds": 300,
+    "voice": "Microsoft Hazel Desktop",
+    "synthetic": true,
+    "humanRecorded": false,
+    "rights": "REVIEW_ONLY_DISTRIBUTION_RIGHTS_NOT_VERIFIED",
+    "audioSha256": "1b20dfbb3049538242f09080a535259fe4d62b0f76bd983acf6f9576b75119a7",
+    "captionsSha256": "97c8006db5e30cf02f191ef487d0e8577e5beffa13ba83ec1ba97856d0232c12"
+  },
+  {
+    "id": "mobility-everyday",
+    "durationSeconds": 600,
+    "voice": "Microsoft Hazel Desktop",
+    "synthetic": true,
+    "humanRecorded": false,
+    "rights": "REVIEW_ONLY_DISTRIBUTION_RIGHTS_NOT_VERIFIED",
+    "audioSha256": "17f8a35e0f69b2e8936cbf82baee5014a0184cc8b20ccd04f41f8f966f516525",
+    "captionsSha256": "f6d0ea55c003538b29b7695bf513e8fef2874da9eb082bea80ff542989e4afe6"
+  },
+  {
+    "id": "mobility-long",
+    "durationSeconds": 900,
+    "voice": "Microsoft Hazel Desktop",
+    "synthetic": true,
+    "humanRecorded": false,
+    "rights": "REVIEW_ONLY_DISTRIBUTION_RIGHTS_NOT_VERIFIED",
+    "audioSha256": "2ac07efd659efd541d21d97ad459aef1dde8e2afe0c689b6113a03550e89c96d",
+    "captionsSha256": "6efe82f8673da1185edd53cff6673a325d807aa87e933e22fc73e71795c280a8"
+  },
+  {
+    "id": "balance-introduction",
+    "durationSeconds": 300,
+    "voice": "Microsoft Hazel Desktop",
+    "synthetic": true,
+    "humanRecorded": false,
+    "rights": "REVIEW_ONLY_DISTRIBUTION_RIGHTS_NOT_VERIFIED",
+    "audioSha256": "d4feede21d6f6fb44397a68b2d0730015754d22397cb9a6cea543ba74c881b59",
+    "captionsSha256": "eb1e511a54027ca8d9d1da76baa9a083c868c9825150acde246f2dd9c94868d5"
+  },
+  {
+    "id": "balance-supported",
+    "durationSeconds": 600,
+    "voice": "Microsoft Hazel Desktop",
+    "synthetic": true,
+    "humanRecorded": false,
+    "rights": "REVIEW_ONLY_DISTRIBUTION_RIGHTS_NOT_VERIFIED",
+    "audioSha256": "d5f5ea888e7ab37c42177d3ee3435d1c995606281f9f6cec57484ef9c580e88b",
+    "captionsSha256": "fe68871a71063e696653db27b250065b1ff4670d6edd109ba756123ebfc16f84"
+  },
+  {
+    "id": "balance-unhurried",
+    "durationSeconds": 900,
+    "voice": "Microsoft Hazel Desktop",
+    "synthetic": true,
+    "humanRecorded": false,
+    "rights": "REVIEW_ONLY_DISTRIBUTION_RIGHTS_NOT_VERIFIED",
+    "audioSha256": "91617d7fd4c0c8a93e95fc0d30d54bb4038e6afec8b898b75c64adb5d5aafd4c",
+    "captionsSha256": "2b3b3a44b8e291d4be876948a322d4b56da83eb31f2eba36776938d57be883e5"
+  },
+  {
+    "id": "chair-week-one",
+    "durationSeconds": 600,
+    "voice": "Microsoft Hazel Desktop",
+    "synthetic": true,
+    "humanRecorded": false,
+    "rights": "REVIEW_ONLY_DISTRIBUTION_RIGHTS_NOT_VERIFIED",
+    "audioSha256": "30f5712537c634cf73164653774b02a7a03a25a0e0a68cb71952c36d59080b57",
+    "captionsSha256": "bfdc32ebe5511e77f416a954818bce008eb79395856dada92dca0be4cfd3a2ce"
+  }
+]

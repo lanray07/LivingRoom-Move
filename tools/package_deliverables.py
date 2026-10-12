@@ -4,22 +4,26 @@ import hashlib
 import json
 import shutil
 import zipfile
+import os
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / 'deliverables'
 OUT.mkdir(exist_ok=True)
-exclude = {'build', '.gradle', '.kotlin', '.idea', '.git', 'artifacts', 'deliverables', '__pycache__'}
+exclude = {'build', '.gradle', '.kotlin', '.idea', '.git', '.remotion', 'artifacts', 'deliverables', '__pycache__', 'node_modules', 'out'}
 with zipfile.ZipFile(OUT / 'LivingRoomMove-source.zip', 'w', zipfile.ZIP_DEFLATED) as archive:
-    for path in ROOT.rglob('*'):
-        if not path.is_file():
-            continue
-        relative = path.relative_to(ROOT)
-        if any(part in exclude for part in relative.parts) or path.name == 'local.properties' or path.suffix in {'.pem','.jks','.keystore'} or path.name.startswith('.env'):
-            continue
-        archive.write(path, Path('LivingRoomMove') / relative)
+    for folder, directories, files in os.walk(ROOT):
+        directories[:] = sorted(d for d in directories if d not in exclude)
+        if Path(folder).relative_to(ROOT).parts == ('workout-studio', 'public'):
+            directories[:] = [d for d in directories if d != 'audio']
+        for name in sorted(files):
+            path = Path(folder) / name
+            if path.name == 'local.properties' or path.suffix in {'.pem','.jks','.keystore'} or path.name.startswith('.env'):
+                continue
+            archive.write(path, Path('LivingRoomMove') / path.relative_to(ROOT))
 for path in [ROOT / 'app/build/outputs/apk/debug/app-debug.apk', ROOT / 'app/build/outputs/apk/release/app-release-unsigned.apk',
              ROOT / 'docs/VERIFICATION.md', ROOT / 'artifacts/dependency-scan.json', ROOT / 'artifacts/final-verification.log',
-             ROOT / 'artifacts/mvp-followup.log']:
+             ROOT / 'artifacts/mvp-followup.log', ROOT / 'artifacts/workout-content-build.log', ROOT / 'artifacts/workout-render.log',
+             ROOT / 'artifacts/workout-instrumentation-build.log', ROOT / 'artifacts/workout-studio-audit-final.json']:
     if path.exists():
         shutil.copy2(path, OUT / path.name)
 manifest = []

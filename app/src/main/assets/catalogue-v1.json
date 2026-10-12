@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "version": 1,
+  "version": 2,
   "expiresAt": null,
   "workouts": [
     {
       "id": "chair-introduction",
       "title": "A gentle seated start",
-      "description": "Planning placeholder. Movement, safety, narration and media await qualified professional review.",
+      "description": "Authored 5-minute production draft with timed movement cues, rest windows and a calm finish. Awaiting professional review, filmed demonstration and licensed human narration.",
       "durationMinutes": 5,
       "difficulty": "Beginner (proposed)",
       "posture": "SEATED",
@@ -20,11 +20,43 @@
         "credentials": null,
         "evidenceId": null
       },
-      "contraindicationNotes": [],
-      "safetyPrompts": [],
-      "movements": [],
+      "contraindicationNotes": [
+        "Individual suitability and contraindications require professional review. No diagnosis-specific prescription is provided."
+      ],
+      "safetyPrompts": [
+        "This is an unreviewed production draft, not a session for exercise use.",
+        "For a published seated session, use a stable chair without wheels, with feet comfortably supported. For standing content, use stable support and a clear floor.",
+        "Move within a comfortable range. Stop if you feel pain, dizziness or unwell; do not continue through symptoms.",
+        "If unsure whether an activity is suitable, ask a qualified health professional. This programme does not prescribe activity for a diagnosis."
+      ],
+      "movements": [
+        {
+          "id": "seated-march-1",
+          "title": "Small seated steps",
+          "durationSeconds": 103,
+          "narration": "Sit tall, feet resting on the floor. Hold the chair sides. Lift one bent knee a little, lower slowly, then change legs. Make each lift comfortable.",
+          "seatedAlternativeId": null
+        },
+        {
+          "id": "ankles-3",
+          "title": "Ankle movement",
+          "durationSeconds": 102,
+          "narration": "Holding the chair, extend one leg comfortably. Point the toes away, then draw them back. Return the foot to the floor before changing sides.",
+          "seatedAlternativeId": null
+        }
+      ],
       "videoUri": null,
-      "voices": [],
+      "voices": [
+        {
+          "language": "en-GB",
+          "audioUri": null,
+          "captionsUri": null,
+          "script": "Production review of A gentle seated start. This draft has not been professionally approved and is not for exercise use. The proposed session begins with a stable chair or wall, a clear space, and a comfortable pace. The reviewer must confirm the movements, alternatives and timing before filming.\nSit tall, feet resting on the floor. Hold the chair sides. Lift one bent knee a little, lower slowly, then change legs. Make each lift comfortable.\nA rest window follows. The final narrator will invite the viewer to settle, take a comfortable breath, or pause for longer. There is no target to chase.\nHolding the chair, extend one leg comfortably. Point the toes away, then draw them back. Return the foot to the floor before changing sides.\nThis is the proposed closing section. The final instructor will guide a comfortable finish and remind the viewer that resting or doing less is welcome. The session remains awaiting professional approval.",
+          "humanRecorded": false,
+          "approved": false,
+          "licenceReference": ""
+        }
+      ],
       "licence": {
         "reference": "",
         "offlineAllowed": false,
@@ -35,7 +67,7 @@
     {
       "id": "chair-everyday",
       "title": "Your seated everyday routine",
-      "description": "Planning placeholder. Movement, safety, narration and media await qualified professional review.",
+      "description": "Authored 10-minute production draft with timed movement cues, rest windows and a calm finish. Awaiting professional review, filmed demonstration and licensed human narration.",
       "durationMinutes": 10,
       "difficulty": "Beginner (proposed)",
       "posture": "SEATED",
@@ -49,11 +81,57 @@
         "credentials": null,
         "evidenceId": null
       },
-      "contraindicationNotes": [],
-      "safetyPrompts": [],
-      "movements": [],
+      "contraindicationNotes": [
+        "Individual suitability and contraindications require professional review. No diagnosis-specific prescription is provided."
+      ],
+      "safetyPrompts": [
+        "This is an unreviewed production draft, not a session for exercise use.",
+        "For a published seated session, use a stable chair without wheels, with feet comfortably supported. For standing content, use stable support and a clear floor.",
+        "Move within a comfortable range. Stop if you feel pain, dizziness or unwell; do not continue through symptoms.",
+        "If unsure whether an activity is suitable, ask a qualified health professional. This programme does not prescribe activity for a diagnosis."
+      ],
+      "movements": [
+        {
+          "id": "seated-march-1",
+          "title": "Small seated steps",
+          "durationSeconds": 117,
+          "narration": "Sit tall, feet resting on the floor. Hold the chair sides. Lift one bent knee a little, lower slowly, then change legs. Make each lift comfortable.",
+          "seatedAlternativeId": null
+        },
+        {
+          "id": "ankles-3",
+          "title": "Ankle movement",
+          "durationSeconds": 116,
+          "narration": "Holding the chair, extend one leg comfortably. Point the toes away, then draw them back. Return the foot to the floor before changing sides.",
+          "seatedAlternativeId": null
+        },
+        {
+          "id": "turn-5",
+          "title": "A comfortable turn",
+          "durationSeconds": 116,
+          "narration": "Sit upright with feet grounded. Cross your arms towards your shoulders. Keep the hips facing forward as the upper body turns gently. Return to centre before changing sides.",
+          "seatedAlternativeId": null
+        },
+        {
+          "id": "chest-7",
+          "title": "Open across the chest",
+          "durationSeconds": 116,
+          "narration": "Sit upright. Ease the shoulders back and down. Open the arms to the sides and gently lift the chest, then relax. Avoid forcing the stretch.",
+          "seatedAlternativeId": null
+        }
+      ],
       "videoUri": null,
-      "voices": [],
+      "voices": [
+        {
+          "language": "en-GB",
+          "audioUri": null,
+          "captionsUri": null,
+          "script": "Production review of Your seated everyday routine. This draft has not been professionally approved and is not for exercise use. The proposed session begins with a stable chair or wall, a clear space, and a comfortable pace. The reviewer must confirm the movements, alternatives and timing before filming.\nSit tall, feet resting on the floor. Hold the chair sides. Lift one bent knee a little, lower slowly, then change legs. Make each lift comfortable.\nA rest window follows. The final narrator will invite the viewer to settle, take a comfortable breath, or pause for longer. There is no target to chase.\nHolding the chair, extend one leg comfortably. Point the toes away, then draw them back. Return the foot to the floor before changing sides.\nA rest window follows. The final narrator will invite the viewer to settle, take a comfortable breath, or pause for longer. There is no target to chase.\nSit upright with feet grounded. Cross your arms towards your shoulders. Keep the hips facing forward as the upper body turns gently. Return to centre before changing sides.\nA rest window follows. The final narrator will invite the viewer to settle, take a comfortable breath, or pause for longer. There is no target to chase.\nSit upright. Ease the shoulders back and down. Open the arms to the sides and gently lift the chest, then relax. Avoid forcing the stretch.\nThis is the proposed closing section. The final instructor will guide a comfortable finish and remind the viewer that resting or doing less is welcome. The session remains awaiting professional approval.",
+          "humanRecorded": false,
+          "approved": false,
+          "licenceReference": ""
+        }
+      ],
       "licence": {
         "reference": "",
         "offlineAllowed": false,
@@ -64,7 +142,7 @@
     {
       "id": "chair-unhurried",
       "title": "An unhurried seated session",
-      "description": "Planning placeholder. Movement, safety, narration and media await qualified professional review.",
+      "description": "Authored 15-minute production draft with timed movement cues, rest windows and a calm finish. Awaiting professional review, filmed demonstration and licensed human narration.",
       "durationMinutes": 15,
       "difficulty": "Beginner (proposed)",
       "posture": "SEATED",
@@ -78,11 +156,71 @@
         "credentials": null,
         "evidenceId": null
       },
-      "contraindicationNotes": [],
-      "safetyPrompts": [],
-      "movements": [],
+      "contraindicationNotes": [
+        "Individual suitability and contraindications require professional review. No diagnosis-specific prescription is provided."
+      ],
+      "safetyPrompts": [
+        "This is an unreviewed production draft, not a session for exercise use.",
+        "For a published seated session, use a stable chair without wheels, with feet comfortably supported. For standing content, use stable support and a clear floor.",
+        "Move within a comfortable range. Stop if you feel pain, dizziness or unwell; do not continue through symptoms.",
+        "If unsure whether an activity is suitable, ask a qualified health professional. This programme does not prescribe activity for a diagnosis."
+      ],
+      "movements": [
+        {
+          "id": "seated-march-1",
+          "title": "Small seated steps",
+          "durationSeconds": 121,
+          "narration": "Sit tall, feet resting on the floor. Hold the chair sides. Lift one bent knee a little, lower slowly, then change legs. Make each lift comfortable.",
+          "seatedAlternativeId": null
+        },
+        {
+          "id": "ankles-3",
+          "title": "Ankle movement",
+          "durationSeconds": 121,
+          "narration": "Holding the chair, extend one leg comfortably. Point the toes away, then draw them back. Return the foot to the floor before changing sides.",
+          "seatedAlternativeId": null
+        },
+        {
+          "id": "turn-5",
+          "title": "A comfortable turn",
+          "durationSeconds": 121,
+          "narration": "Sit upright with feet grounded. Cross your arms towards your shoulders. Keep the hips facing forward as the upper body turns gently. Return to centre before changing sides.",
+          "seatedAlternativeId": null
+        },
+        {
+          "id": "chest-7",
+          "title": "Open across the chest",
+          "durationSeconds": 121,
+          "narration": "Sit upright. Ease the shoulders back and down. Open the arms to the sides and gently lift the chest, then relax. Avoid forcing the stretch.",
+          "seatedAlternativeId": null
+        },
+        {
+          "id": "neck-9",
+          "title": "A gentle look around",
+          "durationSeconds": 121,
+          "narration": "From an upright seat, turn the head slowly within a comfortable range. Return to the middle before looking the other way. Keep the shoulders relaxed.",
+          "seatedAlternativeId": null
+        },
+        {
+          "id": "seated-march-11",
+          "title": "Small seated steps",
+          "durationSeconds": 120,
+          "narration": "Sit tall, feet resting on the floor. Hold the chair sides. Lift one bent knee a little, lower slowly, then change legs. Make each lift comfortable.",
+          "seatedAlternativeId": null
+        }
+      ],
       "videoUri": null,
-      "voices": [],
+      "voices": [
+        {
+          "language": "en-GB",
+          "audioUri": null,
+          "captionsUri": null,
+          "script": "Production review of An unhurried seated session. This draft has not been professionally approved and is not for exercise use. The proposed session begins with a stable chair or wall, a clear space, and a comfortable pace. The reviewer must confirm the movements, alternatives and timing before filming.\nSit tall, feet resting on the floor. Hold the chair sides. Lift one bent knee a little, lower slowly, then change legs. Make each lift comfortable.\nA rest window follows. The final narrator will invite the viewer to settle, take a comfortable breath, or pause for longer. There is no target to chase.\nHolding the chair, extend one leg comfortably. Point the toes away, then draw them back. Return the foot to the floor before changing sides.\nA rest window follows. The final narrator will invite the viewer to settle, take a comfortable breath, or pause for longer. There is no target to chase.\nSit upright with feet grounded. Cross your arms towards your shoulders. Keep the hips facing forward as the upper body turns gently. Return to centre before changing sides.\nA rest window follows. The final narrator will invite the viewer to settle, take a comfortable breath, or pause for longer. There is no target to chase.\nSit upright. Ease the shoulders back and down. Open the arms to the sides and gently lift the chest, then relax. Avoid forcing the stretch.\nA rest window follows. The final narrator will invite the viewer to settle, take a comfortable breath, or pause for longer. There is no target to chase.\nFrom an upright seat, turn the head slowly within a comfortable range. Return to the middle before looking the other way. Keep the shoulders relaxed.\nA rest window follows. The final narrator will invite the viewer to settle, take a comfortable breath, or pause for longer. There is no target to chase.\nSit tall, feet resting on the floor. Hold the chair sides. Lift one bent knee a little, lower slowly, then change legs. Make each lift comfortable.\nThis is the proposed closing section. The final instructor will guide a comfortable finish and remind the viewer that resting or doing less is welcome. The session remains awaiting professional approval.",
+          "humanRecorded": false,
+          "approved": false,
+          "licenceReference": ""
+        }
+      ],
       "licence": {
         "reference": "",
         "offlineAllowed": false,
@@ -93,7 +231,7 @@
     {
       "id": "mobility-short",
       "title": "A little time for mobility",
-      "description": "Planning placeholder. Movement, safety, narration and media await qualified professional review.",
+      "description": "Authored 5-minute production draft with timed movement cues, rest windows and a calm finish. Awaiting professional review, filmed demonstration and licensed human narration.",
       "durationMinutes": 5,
       "difficulty": "Beginner (proposed)",
       "posture": "SEATED",
@@ -107,11 +245,43 @@
         "credentials": null,
         "evidenceId": null
       },
-      "contraindicationNotes": [],
-      "safetyPrompts": [],
-      "movements": [],
+      "contraindicationNotes": [
+        "Individual suitability and contraindications require professional review. No diagnosis-specific prescription is provided."
+      ],
+      "safetyPrompts": [
+        "This is an unreviewed production draft, not a session for exercise use.",
+        "For a published seated session, use a stable chair without wheels, with feet comfortably supported. For standing content, use stable support and a clear floor.",
+        "Move within a comfortable range. Stop if you feel pain, dizziness or unwell; do not continue through symptoms.",
+        "If unsure whether an activity is suitable, ask a qualified health professional. This programme does not prescribe activity for a diagnosis."
+      ],
+      "movements": [
+        {
+          "id": "neck-1",
+          "title": "A gentle look around",
+          "durationSeconds": 103,
+          "narration": "From an upright seat, turn the head slowly within a comfortable range. Return to the middle before looking the other way. Keep the shoulders relaxed.",
+          "seatedAlternativeId": null
+        },
+        {
+          "id": "chest-3",
+          "title": "Open across the chest",
+          "durationSeconds": 102,
+          "narration": "Sit upright. Ease the shoulders back and down. Open the arms to the sides and gently lift the chest, then relax. Avoid forcing the stretch.",
+          "seatedAlternativeId": null
+        }
+      ],
       "videoUri": null,
-      "voices": [],
+      "voices": [
+        {
+          "language": "en-GB",
+          "audioUri": null,
+          "captionsUri": null,
+          "script": "Production review of A little time for mobility. This draft has not been professionally approved and is not for exercise use. The proposed session begins with a stable chair or wall, a clear space, and a comfortable pace. The reviewer must confirm the movements, alternatives and timing before filming.\nFrom an upright seat, turn the head slowly within a comfortable range. Return to the middle before looking the other way. Keep the shoulders relaxed.\nA rest window follows. The final narrator will invite the viewer to settle, take a comfortable breath, or pause for longer. There is no target to chase.\nSit upright. Ease the shoulders back and down. Open the arms to the sides and gently lift the chest, then relax. Avoid forcing the stretch.\nThis is the proposed closing section. The final instructor will guide a comfortable finish and remind the viewer that resting or doing less is welcome. The session remains awaiting professional approval.",
+          "humanRecorded": false,
+          "approved": false,
+          "licenceReference": ""
+        }
+      ],
       "licence": {
         "reference": "",
         "offlineAllowed": false,
@@ -122,7 +292,7 @@
     {
       "id": "mobility-everyday",
       "title": "Everyday mobility",
-      "description": "Planning placeholder. Movement, safety, narration and media await qualified professional review.",
+      "description": "Authored 10-minute production draft with timed movement cues, rest windows and a calm finish. Awaiting professional review, filmed demonstration and licensed human narration.",
       "durationMinutes": 10,
       "difficulty": "Beginner (proposed)",
       "posture": "MIXED",
@@ -136,11 +306,57 @@
         "credentials": null,
         "evidenceId": null
       },
-      "contraindicationNotes": [],
-      "safetyPrompts": [],
-      "movements": [],
+      "contraindicationNotes": [
+        "Individual suitability and contraindications require professional review. No diagnosis-specific prescription is provided."
+      ],
+      "safetyPrompts": [
+        "This is an unreviewed production draft, not a session for exercise use.",
+        "For a published seated session, use a stable chair without wheels, with feet comfortably supported. For standing content, use stable support and a clear floor.",
+        "Move within a comfortable range. Stop if you feel pain, dizziness or unwell; do not continue through symptoms.",
+        "If unsure whether an activity is suitable, ask a qualified health professional. This programme does not prescribe activity for a diagnosis."
+      ],
+      "movements": [
+        {
+          "id": "neck-1",
+          "title": "A gentle look around",
+          "durationSeconds": 117,
+          "narration": "From an upright seat, turn the head slowly within a comfortable range. Return to the middle before looking the other way. Keep the shoulders relaxed.",
+          "seatedAlternativeId": null
+        },
+        {
+          "id": "turn-3",
+          "title": "A comfortable turn",
+          "durationSeconds": 116,
+          "narration": "Sit upright with feet grounded. Cross your arms towards your shoulders. Keep the hips facing forward as the upper body turns gently. Return to centre before changing sides.",
+          "seatedAlternativeId": null
+        },
+        {
+          "id": "side-bend-5",
+          "title": "Easy side bend",
+          "durationSeconds": 116,
+          "narration": "Stand with feet apart and arms by your sides. Slide one hand a little down the same side, return upright, and change sides. Keep the movement small.",
+          "seatedAlternativeId": null
+        },
+        {
+          "id": "calf-7",
+          "title": "Wall-supported calf stretch",
+          "durationSeconds": 116,
+          "narration": "Hands against a solid wall, take one foot back and keep its heel grounded. Ease into a comfortable calf stretch, release, then change legs.",
+          "seatedAlternativeId": null
+        }
+      ],
       "videoUri": null,
-      "voices": [],
+      "voices": [
+        {
+          "language": "en-GB",
+          "audioUri": null,
+          "captionsUri": null,
+          "script": "Production review of Everyday mobility. This draft has not been professionally approved and is not for exercise use. The proposed session begins with a stable chair or wall, a clear space, and a comfortable pace. The reviewer must confirm the movements, alternatives and timing before filming.\nFrom an upright seat, turn the head slowly within a comfortable range. Return to the middle before looking the other way. Keep the shoulders relaxed.\nA rest window follows. The final narrator will invite the viewer to settle, take a comfortable breath, or pause for longer. There is no target to chase.\nSit upright with feet grounded. Cross your arms towards your shoulders. Keep the hips facing forward as the upper body turns gently. Return to centre before changing sides.\nA rest window follows. The final narrator will invite the viewer to settle, take a comfortable breath, or pause for longer. There is no target to chase.\nStand with feet apart and arms by your sides. Slide one hand a little down the same side, return upright, and change sides. Keep the movement small.\nA rest window follows. The final narrator will invite the viewer to settle, take a comfortable breath, or pause for longer. There is no target to chase.\nHands against a solid wall, take one foot back and keep its heel grounded. Ease into a comfortable calf stretch, release, then change legs.\nThis is the proposed closing section. The final instructor will guide a comfortable finish and remind the viewer that resting or doing less is welcome. The session remains awaiting professional approval.",
+          "humanRecorded": false,
+          "approved": false,
+          "licenceReference": ""
+        }
+      ],
       "licence": {
         "reference": "",
         "offlineAllowed": false,
@@ -151,7 +367,7 @@
     {
       "id": "mobility-long",
       "title": "Space to move gently",
-      "description": "Planning placeholder. Movement, safety, narration and media await qualified professional review.",
+      "description": "Authored 15-minute production draft with timed movement cues, rest windows and a calm finish. Awaiting professional review, filmed demonstration and licensed human narration.",
       "durationMinutes": 15,
       "difficulty": "Beginner (proposed)",
       "posture": "MIXED",
@@ -165,11 +381,71 @@
         "credentials": null,
         "evidenceId": null
       },
-      "contraindicationNotes": [],
-      "safetyPrompts": [],
-      "movements": [],
+      "contraindicationNotes": [
+        "Individual suitability and contraindications require professional review. No diagnosis-specific prescription is provided."
+      ],
+      "safetyPrompts": [
+        "This is an unreviewed production draft, not a session for exercise use.",
+        "For a published seated session, use a stable chair without wheels, with feet comfortably supported. For standing content, use stable support and a clear floor.",
+        "Move within a comfortable range. Stop if you feel pain, dizziness or unwell; do not continue through symptoms.",
+        "If unsure whether an activity is suitable, ask a qualified health professional. This programme does not prescribe activity for a diagnosis."
+      ],
+      "movements": [
+        {
+          "id": "neck-1",
+          "title": "A gentle look around",
+          "durationSeconds": 121,
+          "narration": "From an upright seat, turn the head slowly within a comfortable range. Return to the middle before looking the other way. Keep the shoulders relaxed.",
+          "seatedAlternativeId": null
+        },
+        {
+          "id": "chest-3",
+          "title": "Open across the chest",
+          "durationSeconds": 121,
+          "narration": "Sit upright. Ease the shoulders back and down. Open the arms to the sides and gently lift the chest, then relax. Avoid forcing the stretch.",
+          "seatedAlternativeId": null
+        },
+        {
+          "id": "turn-5",
+          "title": "A comfortable turn",
+          "durationSeconds": 121,
+          "narration": "Sit upright with feet grounded. Cross your arms towards your shoulders. Keep the hips facing forward as the upper body turns gently. Return to centre before changing sides.",
+          "seatedAlternativeId": null
+        },
+        {
+          "id": "side-bend-7",
+          "title": "Easy side bend",
+          "durationSeconds": 121,
+          "narration": "Stand with feet apart and arms by your sides. Slide one hand a little down the same side, return upright, and change sides. Keep the movement small.",
+          "seatedAlternativeId": null
+        },
+        {
+          "id": "calf-9",
+          "title": "Wall-supported calf stretch",
+          "durationSeconds": 121,
+          "narration": "Hands against a solid wall, take one foot back and keep its heel grounded. Ease into a comfortable calf stretch, release, then change legs.",
+          "seatedAlternativeId": null
+        },
+        {
+          "id": "ankles-11",
+          "title": "Ankle movement",
+          "durationSeconds": 120,
+          "narration": "Holding the chair, extend one leg comfortably. Point the toes away, then draw them back. Return the foot to the floor before changing sides.",
+          "seatedAlternativeId": null
+        }
+      ],
       "videoUri": null,
-      "voices": [],
+      "voices": [
+        {
+          "language": "en-GB",
+          "audioUri": null,
+          "captionsUri": null,
+          "script": "Production review of Space to move gently. This draft has not been professionally approved and is not for exercise use. The proposed session begins with a stable chair or wall, a clear space, and a comfortable pace. The reviewer must confirm the movements, alternatives and timing before filming.\nFrom an upright seat, turn the head slowly within a comfortable range. Return to the middle before looking the other way. Keep the shoulders relaxed.\nA rest window follows. The final narrator will invite the viewer to settle, take a comfortable breath, or pause for longer. There is no target to chase.\nSit upright. Ease the shoulders back and down. Open the arms to the sides and gently lift the chest, then relax. Avoid forcing the stretch.\nA rest window follows. The final narrator will invite the viewer to settle, take a comfortable breath, or pause for longer. There is no target to chase.\nSit upright with feet grounded. Cross your arms towards your shoulders. Keep the hips facing forward as the upper body turns gently. Return to centre before changing sides.\nA rest window follows. The final narrator will invite the viewer to settle, take a comfortable breath, or pause for longer. There is no target to chase.\nStand with feet apart and arms by your sides. Slide one hand a little down the same side, return upright, and change sides. Keep the movement small.\nA rest window follows. The final narrator will invite the viewer to settle, take a comfortable breath, or pause for longer. There is no target to chase.\nHands against a solid wall, take one foot back and keep its heel grounded. Ease into a comfortable calf stretch, release, then change legs.\nA rest window follows. The final narrator will invite the viewer to settle, take a comfortable breath, or pause for longer. There is no target to chase.\nHolding the chair, extend one leg comfortably. Point the toes away, then draw them back. Return the foot to the floor before changing sides.\nThis is the proposed closing section. The final instructor will guide a comfortable finish and remind the viewer that resting or doing less is welcome. The session remains awaiting professional approval.",
+          "humanRecorded": false,
+          "approved": false,
+          "licenceReference": ""
+        }
+      ],
       "licence": {
         "reference": "",
         "offlineAllowed": false,
@@ -180,7 +456,7 @@
     {
       "id": "balance-introduction",
       "title": "Getting started with balance",
-      "description": "Planning placeholder. Movement, safety, narration and media await qualified professional review.",
+      "description": "Authored 5-minute production draft with timed movement cues, rest windows and a calm finish. Awaiting professional review, filmed demonstration and licensed human narration.",
       "durationMinutes": 5,
       "difficulty": "Beginner (proposed)",
       "posture": "STANDING",
@@ -194,11 +470,43 @@
         "credentials": null,
         "evidenceId": null
       },
-      "contraindicationNotes": [],
-      "safetyPrompts": [],
-      "movements": [],
+      "contraindicationNotes": [
+        "Individual suitability and contraindications require professional review. No diagnosis-specific prescription is provided."
+      ],
+      "safetyPrompts": [
+        "This is an unreviewed production draft, not a session for exercise use.",
+        "For a published seated session, use a stable chair without wheels, with feet comfortably supported. For standing content, use stable support and a clear floor.",
+        "Move within a comfortable range. Stop if you feel pain, dizziness or unwell; do not continue through symptoms.",
+        "If unsure whether an activity is suitable, ask a qualified health professional. This programme does not prescribe activity for a diagnosis."
+      ],
+      "movements": [
+        {
+          "id": "side-step-1",
+          "title": "Supported side steps",
+          "durationSeconds": 103,
+          "narration": "With stable support nearby, step to the side slowly and bring the other foot alongside. Change direction after a few comfortable steps. Keep the hips level.",
+          "seatedAlternativeId": null
+        },
+        {
+          "id": "stand-3",
+          "title": "Supported one-leg practice",
+          "durationSeconds": 102,
+          "narration": "Face a wall with fingers resting against it. Keep the standing knee soft while lifting the other foot briefly. Put it down before changing sides.",
+          "seatedAlternativeId": null
+        }
+      ],
       "videoUri": null,
-      "voices": [],
+      "voices": [
+        {
+          "language": "en-GB",
+          "audioUri": null,
+          "captionsUri": null,
+          "script": "Production review of Getting started with balance. This draft has not been professionally approved and is not for exercise use. The proposed session begins with a stable chair or wall, a clear space, and a comfortable pace. The reviewer must confirm the movements, alternatives and timing before filming.\nWith stable support nearby, step to the side slowly and bring the other foot alongside. Change direction after a few comfortable steps. Keep the hips level.\nA rest window follows. The final narrator will invite the viewer to settle, take a comfortable breath, or pause for longer. There is no target to chase.\nFace a wall with fingers resting against it. Keep the standing knee soft while lifting the other foot briefly. Put it down before changing sides.\nThis is the proposed closing section. The final instructor will guide a comfortable finish and remind the viewer that resting or doing less is welcome. The session remains awaiting professional approval.",
+          "humanRecorded": false,
+          "approved": false,
+          "licenceReference": ""
+        }
+      ],
       "licence": {
         "reference": "",
         "offlineAllowed": false,
@@ -209,7 +517,7 @@
     {
       "id": "balance-supported",
       "title": "Supported beginner balance",
-      "description": "Planning placeholder. Movement, safety, narration and media await qualified professional review.",
+      "description": "Authored 10-minute production draft with timed movement cues, rest windows and a calm finish. Awaiting professional review, filmed demonstration and licensed human narration.",
       "durationMinutes": 10,
       "difficulty": "Beginner (proposed)",
       "posture": "STANDING",
@@ -223,11 +531,57 @@
         "credentials": null,
         "evidenceId": null
       },
-      "contraindicationNotes": [],
-      "safetyPrompts": [],
-      "movements": [],
+      "contraindicationNotes": [
+        "Individual suitability and contraindications require professional review. No diagnosis-specific prescription is provided."
+      ],
+      "safetyPrompts": [
+        "This is an unreviewed production draft, not a session for exercise use.",
+        "For a published seated session, use a stable chair without wheels, with feet comfortably supported. For standing content, use stable support and a clear floor.",
+        "Move within a comfortable range. Stop if you feel pain, dizziness or unwell; do not continue through symptoms.",
+        "If unsure whether an activity is suitable, ask a qualified health professional. This programme does not prescribe activity for a diagnosis."
+      ],
+      "movements": [
+        {
+          "id": "side-step-1",
+          "title": "Supported side steps",
+          "durationSeconds": 117,
+          "narration": "With stable support nearby, step to the side slowly and bring the other foot alongside. Change direction after a few comfortable steps. Keep the hips level.",
+          "seatedAlternativeId": null
+        },
+        {
+          "id": "stand-3",
+          "title": "Supported one-leg practice",
+          "durationSeconds": 116,
+          "narration": "Face a wall with fingers resting against it. Keep the standing knee soft while lifting the other foot briefly. Put it down before changing sides.",
+          "seatedAlternativeId": null
+        },
+        {
+          "id": "line-walk-5",
+          "title": "Heel-to-toe steps",
+          "durationSeconds": 116,
+          "narration": "Beside a wall, place one heel just ahead of the other foot’s toes. Look forwards and take a few controlled steps, using the wall if needed.",
+          "seatedAlternativeId": null
+        },
+        {
+          "id": "side-step-7",
+          "title": "Supported side steps",
+          "durationSeconds": 116,
+          "narration": "With stable support nearby, step to the side slowly and bring the other foot alongside. Change direction after a few comfortable steps. Keep the hips level.",
+          "seatedAlternativeId": null
+        }
+      ],
       "videoUri": null,
-      "voices": [],
+      "voices": [
+        {
+          "language": "en-GB",
+          "audioUri": null,
+          "captionsUri": null,
+          "script": "Production review of Supported beginner balance. This draft has not been professionally approved and is not for exercise use. The proposed session begins with a stable chair or wall, a clear space, and a comfortable pace. The reviewer must confirm the movements, alternatives and timing before filming.\nWith stable support nearby, step to the side slowly and bring the other foot alongside. Change direction after a few comfortable steps. Keep the hips level.\nA rest window follows. The final narrator will invite the viewer to settle, take a comfortable breath, or pause for longer. There is no target to chase.\nFace a wall with fingers resting against it. Keep the standing knee soft while lifting the other foot briefly. Put it down before changing sides.\nA rest window follows. The final narrator will invite the viewer to settle, take a comfortable breath, or pause for longer. There is no target to chase.\nBeside a wall, place one heel just ahead of the other foot’s toes. Look forwards and take a few controlled steps, using the wall if needed.\nA rest window follows. The final narrator will invite the viewer to settle, take a comfortable breath, or pause for longer. There is no target to chase.\nWith stable support nearby, step to the side slowly and bring the other foot alongside. Change direction after a few comfortable steps. Keep the hips level.\nThis is the proposed closing section. The final instructor will guide a comfortable finish and remind the viewer that resting or doing less is welcome. The session remains awaiting professional approval.",
+          "humanRecorded": false,
+          "approved": false,
+          "licenceReference": ""
+        }
+      ],
       "licence": {
         "reference": "",
         "offlineAllowed": false,
@@ -238,7 +592,7 @@
     {
       "id": "balance-unhurried",
       "title": "Balance at your own pace",
-      "description": "Planning placeholder. Movement, safety, narration and media await qualified professional review.",
+      "description": "Authored 15-minute production draft with timed movement cues, rest windows and a calm finish. Awaiting professional review, filmed demonstration and licensed human narration.",
       "durationMinutes": 15,
       "difficulty": "Beginner (proposed)",
       "posture": "STANDING",
@@ -252,11 +606,71 @@
         "credentials": null,
         "evidenceId": null
       },
-      "contraindicationNotes": [],
-      "safetyPrompts": [],
-      "movements": [],
+      "contraindicationNotes": [
+        "Individual suitability and contraindications require professional review. No diagnosis-specific prescription is provided."
+      ],
+      "safetyPrompts": [
+        "This is an unreviewed production draft, not a session for exercise use.",
+        "For a published seated session, use a stable chair without wheels, with feet comfortably supported. For standing content, use stable support and a clear floor.",
+        "Move within a comfortable range. Stop if you feel pain, dizziness or unwell; do not continue through symptoms.",
+        "If unsure whether an activity is suitable, ask a qualified health professional. This programme does not prescribe activity for a diagnosis."
+      ],
+      "movements": [
+        {
+          "id": "side-step-1",
+          "title": "Supported side steps",
+          "durationSeconds": 121,
+          "narration": "With stable support nearby, step to the side slowly and bring the other foot alongside. Change direction after a few comfortable steps. Keep the hips level.",
+          "seatedAlternativeId": null
+        },
+        {
+          "id": "stand-3",
+          "title": "Supported one-leg practice",
+          "durationSeconds": 121,
+          "narration": "Face a wall with fingers resting against it. Keep the standing knee soft while lifting the other foot briefly. Put it down before changing sides.",
+          "seatedAlternativeId": null
+        },
+        {
+          "id": "line-walk-5",
+          "title": "Heel-to-toe steps",
+          "durationSeconds": 121,
+          "narration": "Beside a wall, place one heel just ahead of the other foot’s toes. Look forwards and take a few controlled steps, using the wall if needed.",
+          "seatedAlternativeId": null
+        },
+        {
+          "id": "side-step-7",
+          "title": "Supported side steps",
+          "durationSeconds": 121,
+          "narration": "With stable support nearby, step to the side slowly and bring the other foot alongside. Change direction after a few comfortable steps. Keep the hips level.",
+          "seatedAlternativeId": null
+        },
+        {
+          "id": "stand-9",
+          "title": "Supported one-leg practice",
+          "durationSeconds": 121,
+          "narration": "Face a wall with fingers resting against it. Keep the standing knee soft while lifting the other foot briefly. Put it down before changing sides.",
+          "seatedAlternativeId": null
+        },
+        {
+          "id": "line-walk-11",
+          "title": "Heel-to-toe steps",
+          "durationSeconds": 120,
+          "narration": "Beside a wall, place one heel just ahead of the other foot’s toes. Look forwards and take a few controlled steps, using the wall if needed.",
+          "seatedAlternativeId": null
+        }
+      ],
       "videoUri": null,
-      "voices": [],
+      "voices": [
+        {
+          "language": "en-GB",
+          "audioUri": null,
+          "captionsUri": null,
+          "script": "Production review of Balance at your own pace. This draft has not been professionally approved and is not for exercise use. The proposed session begins with a stable chair or wall, a clear space, and a comfortable pace. The reviewer must confirm the movements, alternatives and timing before filming.\nWith stable support nearby, step to the side slowly and bring the other foot alongside. Change direction after a few comfortable steps. Keep the hips level.\nA rest window follows. The final narrator will invite the viewer to settle, take a comfortable breath, or pause for longer. There is no target to chase.\nFace a wall with fingers resting against it. Keep the standing knee soft while lifting the other foot briefly. Put it down before changing sides.\nA rest window follows. The final narrator will invite the viewer to settle, take a comfortable breath, or pause for longer. There is no target to chase.\nBeside a wall, place one heel just ahead of the other foot’s toes. Look forwards and take a few controlled steps, using the wall if needed.\nA rest window follows. The final narrator will invite the viewer to settle, take a comfortable breath, or pause for longer. There is no target to chase.\nWith stable support nearby, step to the side slowly and bring the other foot alongside. Change direction after a few comfortable steps. Keep the hips level.\nA rest window follows. The final narrator will invite the viewer to settle, take a comfortable breath, or pause for longer. There is no target to chase.\nFace a wall with fingers resting against it. Keep the standing knee soft while lifting the other foot briefly. Put it down before changing sides.\nA rest window follows. The final narrator will invite the viewer to settle, take a comfortable breath, or pause for longer. There is no target to chase.\nBeside a wall, place one heel just ahead of the other foot’s toes. Look forwards and take a few controlled steps, using the wall if needed.\nThis is the proposed closing section. The final instructor will guide a comfortable finish and remind the viewer that resting or doing less is welcome. The session remains awaiting professional approval.",
+          "humanRecorded": false,
+          "approved": false,
+          "licenceReference": ""
+        }
+      ],
       "licence": {
         "reference": "",
         "offlineAllowed": false,
@@ -267,7 +681,7 @@
     {
       "id": "chair-week-one",
       "title": "Week one: a comfortable beginning",
-      "description": "Planning placeholder. Movement, safety, narration and media await qualified professional review.",
+      "description": "Authored 10-minute production draft with timed movement cues, rest windows and a calm finish. Awaiting professional review, filmed demonstration and licensed human narration.",
       "durationMinutes": 10,
       "difficulty": "Beginner (proposed)",
       "posture": "SEATED",
@@ -281,11 +695,57 @@
         "credentials": null,
         "evidenceId": null
       },
-      "contraindicationNotes": [],
-      "safetyPrompts": [],
-      "movements": [],
+      "contraindicationNotes": [
+        "Individual suitability and contraindications require professional review. No diagnosis-specific prescription is provided."
+      ],
+      "safetyPrompts": [
+        "This is an unreviewed production draft, not a session for exercise use.",
+        "For a published seated session, use a stable chair without wheels, with feet comfortably supported. For standing content, use stable support and a clear floor.",
+        "Move within a comfortable range. Stop if you feel pain, dizziness or unwell; do not continue through symptoms.",
+        "If unsure whether an activity is suitable, ask a qualified health professional. This programme does not prescribe activity for a diagnosis."
+      ],
+      "movements": [
+        {
+          "id": "seated-march-1",
+          "title": "Small seated steps",
+          "durationSeconds": 117,
+          "narration": "Sit tall, feet resting on the floor. Hold the chair sides. Lift one bent knee a little, lower slowly, then change legs. Make each lift comfortable.",
+          "seatedAlternativeId": null
+        },
+        {
+          "id": "ankles-3",
+          "title": "Ankle movement",
+          "durationSeconds": 116,
+          "narration": "Holding the chair, extend one leg comfortably. Point the toes away, then draw them back. Return the foot to the floor before changing sides.",
+          "seatedAlternativeId": null
+        },
+        {
+          "id": "chest-5",
+          "title": "Open across the chest",
+          "durationSeconds": 116,
+          "narration": "Sit upright. Ease the shoulders back and down. Open the arms to the sides and gently lift the chest, then relax. Avoid forcing the stretch.",
+          "seatedAlternativeId": null
+        },
+        {
+          "id": "turn-7",
+          "title": "A comfortable turn",
+          "durationSeconds": 116,
+          "narration": "Sit upright with feet grounded. Cross your arms towards your shoulders. Keep the hips facing forward as the upper body turns gently. Return to centre before changing sides.",
+          "seatedAlternativeId": null
+        }
+      ],
       "videoUri": null,
-      "voices": [],
+      "voices": [
+        {
+          "language": "en-GB",
+          "audioUri": null,
+          "captionsUri": null,
+          "script": "Production review of Week one: a comfortable beginning. This draft has not been professionally approved and is not for exercise use. The proposed session begins with a stable chair or wall, a clear space, and a comfortable pace. The reviewer must confirm the movements, alternatives and timing before filming.\nSit tall, feet resting on the floor. Hold the chair sides. Lift one bent knee a little, lower slowly, then change legs. Make each lift comfortable.\nA rest window follows. The final narrator will invite the viewer to settle, take a comfortable breath, or pause for longer. There is no target to chase.\nHolding the chair, extend one leg comfortably. Point the toes away, then draw them back. Return the foot to the floor before changing sides.\nA rest window follows. The final narrator will invite the viewer to settle, take a comfortable breath, or pause for longer. There is no target to chase.\nSit upright. Ease the shoulders back and down. Open the arms to the sides and gently lift the chest, then relax. Avoid forcing the stretch.\nA rest window follows. The final narrator will invite the viewer to settle, take a comfortable breath, or pause for longer. There is no target to chase.\nSit upright with feet grounded. Cross your arms towards your shoulders. Keep the hips facing forward as the upper body turns gently. Return to centre before changing sides.\nThis is the proposed closing section. The final instructor will guide a comfortable finish and remind the viewer that resting or doing less is welcome. The session remains awaiting professional approval.",
+          "humanRecorded": false,
+          "approved": false,
+          "licenceReference": ""
+        }
+      ],
       "licence": {
         "reference": "",
         "offlineAllowed": false,

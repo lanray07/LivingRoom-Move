@@ -4,6 +4,8 @@ Gentle movement. Right from your living room.
 
 Native Kotlin/Compose TV app for Android-based Amazon Fire TV. **Engineering preview, not ready for sale or exercise use.** Ten catalogue records are explicit placeholders. The owner confirmed there is no reviewed/licensed exercise media. Playback gates prevent drafts from playing; no review, clinical validation, translation approval or hardware QA has been fabricated.
 
+The [workout production pack](content/README.md) now contains ten authored session drafts totalling 100 minutes, timed scripts/captions and an editable 1080p Remotion studio. Synthetic review narration and cue-card videos remain production assets, separate from published instructional media. Run the studio locally for review; professional exercise approval and human footage/narration are still required.
+
 ## Delivery milestones
 
 The [four-milestone plan](docs/IMPLEMENTATION_PLAN.md) is the delivery sequence: functional MVP → premium experience → global launch assets → release readiness. **Milestone 1 is in progress.** Approved free workout content and physical Fire TV verification are required before it is complete; later foundations already in the preview do not establish completion of those milestones.

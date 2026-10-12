@@ -1,0 +1,112 @@
+{
+  "id": "mobility-everyday",
+  "title": "Everyday mobility",
+  "durationSeconds": 600,
+  "posture": "MIXED",
+  "category": "mobility",
+  "programmeId": null,
+  "status": "DRAFT_REQUIRES_PROFESSIONAL_REVIEW",
+  "syntheticVoice": true,
+  "humanRecorded": false,
+  "approved": false,
+  "safetyPrompts": [
+    "This is an unreviewed production draft, not a session for exercise use.",
+    "For a published seated session, use a stable chair without wheels, with feet comfortably supported. For standing content, use stable support and a clear floor.",
+    "Move within a comfortable range. Stop if you feel pain, dizziness or unwell; do not continue through symptoms.",
+    "If unsure whether an activity is suitable, ask a qualified health professional. This programme does not prescribe activity for a diagnosis."
+  ],
+  "chapters": [
+    {
+      "kind": "intro",
+      "title": "A moment to begin",
+      "start": 0,
+      "seconds": 45,
+      "cue": "Stable support • Comfortable pace",
+      "script": "Production review of Everyday mobility. This draft has not been professionally approved and is not for exercise use. The proposed session begins with a stable chair or wall, a clear space, and a comfortable pace. The reviewer must confirm the movements, alternatives and timing before filming."
+    },
+    {
+      "kind": "movement",
+      "title": "A gentle look around",
+      "start": 45,
+      "seconds": 117,
+      "cue": "Comfortable range only.",
+      "script": "From an upright seat, turn the head slowly within a comfortable range. Return to the middle before looking the other way. Keep the shoulders relaxed.",
+      "movementId": "neck",
+      "source": "https://www.nhs.uk/live-well/exercise/flexibility-exercises/",
+      "alternativeId": null,
+      "reviewerNote": "Timing is a filming window including instruction, rest and optional repetitions. Reviewer sets dose; do not fill the window with continuous repetitions.",
+      "alternativeNote": null
+    },
+    {
+      "kind": "rest",
+      "title": "Time to reset",
+      "start": 162,
+      "seconds": 20,
+      "cue": "Rest is part of the session",
+      "script": "A rest window follows. The final narrator will invite the viewer to settle, take a comfortable breath, or pause for longer. There is no target to chase."
+    },
+    {
+      "kind": "movement",
+      "title": "A comfortable turn",
+      "start": 182,
+      "seconds": 116,
+      "cue": "Keep the movement comfortable.",
+      "script": "Sit upright with feet grounded. Cross your arms towards your shoulders. Keep the hips facing forward as the upper body turns gently. Return to centre before changing sides.",
+      "movementId": "turn",
+      "source": "https://www.nhs.uk/live-well/exercise/sitting-exercises/",
+      "alternativeId": null,
+      "reviewerNote": "Timing is a filming window including instruction, rest and optional repetitions. Reviewer sets dose; do not fill the window with continuous repetitions.",
+      "alternativeNote": null
+    },
+    {
+      "kind": "rest",
+      "title": "Time to reset",
+      "start": 298,
+      "seconds": 20,
+      "cue": "Rest is part of the session",
+      "script": "A rest window follows. The final narrator will invite the viewer to settle, take a comfortable breath, or pause for longer. There is no target to chase."
+    },
+    {
+      "kind": "movement",
+      "title": "Easy side bend",
+      "start": 318,
+      "seconds": 116,
+      "cue": "Return upright between sides.",
+      "script": "Stand with feet apart and arms by your sides. Slide one hand a little down the same side, return upright, and change sides. Keep the movement small.",
+      "movementId": "side-bend",
+      "source": "https://www.nhs.uk/live-well/exercise/flexibility-exercises/",
+      "alternativeId": "turn",
+      "reviewerNote": "Timing is a filming window including instruction, rest and optional repetitions. Reviewer sets dose; do not fill the window with continuous repetitions.",
+      "alternativeNote": "Proposed separate seated activity; not an equivalent balance exercise. Reviewer must approve it."
+    },
+    {
+      "kind": "rest",
+      "title": "Time to reset",
+      "start": 434,
+      "seconds": 20,
+      "cue": "Rest is part of the session",
+      "script": "A rest window follows. The final narrator will invite the viewer to settle, take a comfortable breath, or pause for longer. There is no target to chase."
+    },
+    {
+      "kind": "movement",
+      "title": "Wall-supported calf stretch",
+      "start": 454,
+      "seconds": 116,
+      "cue": "Release before changing legs.",
+      "script": "Hands against a solid wall, take one foot back and keep its heel grounded. Ease into a comfortable calf stretch, release, then change legs.",
+      "movementId": "calf",
+      "source": "https://www.nhs.uk/live-well/exercise/flexibility-exercises/",
+      "alternativeId": "ankles",
+      "reviewerNote": "Timing is a filming window including instruction, rest and optional repetitions. Reviewer sets dose; do not fill the window with continuous repetitions.",
+      "alternativeNote": "Proposed separate seated activity; not an equivalent balance exercise. Reviewer must approve it."
+    },
+    {
+      "kind": "outro",
+      "title": "A calm finish",
+      "start": 570,
+      "seconds": 30,
+      "cue": "A little time, at your own pace",
+      "script": "This is the proposed closing section. The final instructor will guide a comfortable finish and remind the viewer that resting or doing less is welcome. The session remains awaiting professional approval."
+    }
+  ]
+}

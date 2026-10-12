@@ -16,6 +16,7 @@ jobs:
       - uses: gradle/actions/setup-gradle@v4
       - run: chmod +x gradlew
       - run: python tools/validate_release.py
+      - run: python tools/validate_workout_pack.py
       - run: python -m unittest discover -s tools -p 'test_*.py'
       - run: ./gradlew :core:test :app:testDebugUnitTest :app:assembleDebug :app:assembleRelease :app:lintDebug
       - run: |

@@ -38,14 +38,22 @@ The full baseline Gradle command was rerun against these changes: **BUILD SUCCES
 
 The first [GitHub run](https://github.com/lanray07/LivingRoom-Move/actions/runs/38287282330) failed in SDK setup before app checks: the action's default package list requested the unavailable `tools` package. Commit `58d7e31` explicitly requests `platform-tools` and retains reports on failures. The [replacement run](https://github.com/lanray07/LivingRoom-Move/actions/runs/38289231473) completed its build job successfully; its emulator job failed before test execution because the downloaded Google APIs system-image archive was invalid.
 
-The workflow now uses an available Android TV API34/x86 image and enables hosted KVM acceleration and hardware keyboard input. The image identifier was checked against Google's Android TV repository metadata; acceleration follows the [emulator runner's documented Linux setup](https://github.com/ReactiveCircus/android-emulator-runner#running-hardware-accelerated-emulators-on-linux-runners). The [Android TV run](https://github.com/lanray07/LivingRoom-Move/actions/runs/38290041449) was still running at this record's update. No passed instrumentation result is claimed until it completes. Emulator execution is not physical Fire TV evidence.
+The workflow now uses an available Android TV API34/x86 image and enables hosted KVM acceleration and hardware keyboard input. The image identifier was checked against Google's Android TV repository metadata; acceleration follows the [emulator runner's documented Linux setup](https://github.com/ReactiveCircus/android-emulator-runner#running-hardware-accelerated-emulators-on-linux-runners). The [Android TV run](https://github.com/lanray07/LivingRoom-Move/actions/runs/38290041449) passed its build job but failed both device UI tests. Assertions immediately after navigation did not find the expected session title or Family setup. The test now awaits the destination UI after navigation; this change compiled successfully in 48s but has not yet passed an emulator rerun. Emulator execution is not physical Fire TV evidence.
 
 The [free-session production brief](FREE_SESSION_PRODUCTION_BRIEF.md) specifies commissioning scope and media/review handover. It supplies no exercise instructions or fabricated approval.
 
 ## Current output integrity
 
-- Debug APK SHA256: `57d4e6a7409ae5b11602c43b12bf60bcbad2e3793108a26ff78e34877f4b5414`
-- Unsigned release APK SHA256: `257599dc933900e1c6bd47d6c104b98c4ab5296e8bec71a32f83efacb75c24da`
+- Debug APK SHA256: `a3339558a7bb7d84c18ea2deda210b515c7033c6b7b91fe94dc585bcb29c6fec`
+- Unsigned release APK SHA256: `da4f923cc19e60ad4307247ca63a4e7f28336ab9d88fac21a14dcaf43e45df77`
+
+## Workout production drafts
+
+All ten catalogue sessions now have authored production drafts: 100 minutes, 90 chapters and 290 sentence-aligned caption cues. Each has a timed timeline, filming/review script, proposed human-recording script, synthetic review WAV, WebVTT captions and two full-duration 1920×1080 review MP4s (silent and narrated). Repetition and hold-time decisions remain explicit reviewer tasks. These are cue-card production previews with no instructor demonstration. Studio compositions run at 30fps; static-card MP4 exports run at 1fps with a seconds timer.
+
+`python tools/validate_workout_pack.py --media` passed all ten sessions, including uninterrupted duration, caption bounds, audio length, MP4 duration/tracks/resolution and preservation of publication denial. Actual encoded frames from seated, mobility and balance sessions were visually inspected. The review ZIP passed its integrity check and contains a per-file hash manifest. Synthetic Windows review narration has no asserted distribution licence and is excluded from the app and source archive. Human exercise review, licensed human narration and approved filmed instruction are still absent.
+
+The app build, domain and JVM tests passed in 1m 50s after the catalogue update; the four Python translation tests and preview validator also passed (15 tests total). Release content validation still rejects the draft placeholders as intended. App lint evidence above is from the earlier baseline. Studio TypeScript checking passed and the final npm audit reported 0 indexed vulnerabilities; this is a dependency query, not a security audit. Logs are `artifacts/workout-content-build.log`, `artifacts/workout-instrumentation-build.log`, `artifacts/workout-render.log` and `artifacts/workout-studio-audit-final.json`.
 
 The debug technical audio is excluded from release assets. All ten exercise records remain DRAFT placeholders. Purchase calls are disabled. Legal and store copy are marked for review. The final listing draft is 192 UTF-8 bytes short / 1,166 characters long, below the researched description limits. Exported Fire TV icon/background and five opaque review captures have the documented dimensions; no fabricated exercise screen is included.
 

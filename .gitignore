@@ -1,5 +1,6 @@
 .gradle/
 .kotlin/
+**/.remotion/
 **/build/
 local.properties
 .idea/
@@ -12,3 +13,6 @@ local.properties
 tools/__pycache__/
 artifacts/
 deliverables/
+**/node_modules/
+workout-studio/out/
+workout-studio/public/audio/

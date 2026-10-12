@@ -1,6 +1,6 @@
 # Review, media and catalogue publication
 
-All current session records are DRAFT/placeholder with no movements, reviewer identity, safety scripts, video, captions or voice assets. This is intentional. Catalogue titles describe proposed sessions, not validated instructions.
+All ten current session records remain DRAFT/placeholder. They now contain authored movement plans, proposed safety wording and narrator scripts, with timed review audio/captions and a Remotion production studio under [content](../content/README.md). Reviewer identities and approvals, licensed instructional footage and published human narration remain absent. Review assets do not establish validated exercise instructions.
 
 Use the [free-session production brief](FREE_SESSION_PRODUCTION_BRIEF.md) to commission the first reviewed library and specify the media handover. It is a production specification, not approved exercise content.
 
