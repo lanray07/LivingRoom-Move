@@ -54,9 +54,9 @@ jobs:
           sudo udevadm trigger --name-match=kvm
       - uses: reactivecircus/android-emulator-runner@v2
         with:
-          api-level: 35
-          arch: x86_64
-          target: google_apis
+          api-level: 34
+          arch: x86
+          target: android-tv
           disable-linux-hw-accel: false
           enable-hw-keyboard: true
           emulator-options: -no-window -no-audio -no-boot-anim -gpu swiftshader_indirect -camera-back none
