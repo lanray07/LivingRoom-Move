@@ -10,6 +10,8 @@ jobs:
           distribution: temurin
           java-version: '17'
       - uses: android-actions/setup-android@v3
+        with:
+          packages: platform-tools
       - run: sdkmanager 'platforms;android-36' 'build-tools;36.0.0'
       - uses: gradle/actions/setup-gradle@v4
       - run: chmod +x gradlew
@@ -21,6 +23,7 @@ jobs:
           ./gradlew :app:dependencies --configuration releaseRuntimeClasspath --console=plain > artifacts/dependencies.txt
           python tools/scan_dependencies.py artifacts/dependencies.txt
       - uses: actions/upload-artifact@v4
+        if: always()
         with:
           name: debug-apk-and-reports
           path: |
@@ -28,6 +31,7 @@ jobs:
             app/build/reports/
             core/build/reports/tests/
             artifacts/dependency-scan.json
+            assets/screenshots/jvm/
   android-ui:
     runs-on: ubuntu-latest
     steps:
@@ -37,6 +41,8 @@ jobs:
           distribution: temurin
           java-version: '17'
       - uses: android-actions/setup-android@v3
+        with:
+          packages: platform-tools
       - run: sdkmanager 'platforms;android-36' 'build-tools;36.0.0'
       - uses: gradle/actions/setup-gradle@v4
       - run: chmod +x gradlew
@@ -48,6 +54,13 @@ jobs:
           emulator-options: -no-window -no-audio -no-boot-anim -gpu swiftshader_indirect -camera-back none
           disable-animations: true
           script: ./gradlew :app:connectedDebugAndroidTest
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: android-ui-reports
+          path: |
+            app/build/reports/androidTests/
+            app/build/outputs/androidTest-results/
   publication-gate:
     if: github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
