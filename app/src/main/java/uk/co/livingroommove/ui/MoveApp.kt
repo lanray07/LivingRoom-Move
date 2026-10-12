@@ -38,6 +38,7 @@ import uk.co.livingroommove.R
 import uk.co.livingroommove.core.*
 import uk.co.livingroommove.data.MoveEvent
 import java.util.Locale
+import kotlin.math.roundToInt
 
 val Forest = Color(0xFF294C3B)
 val Ink = Color(0xFF253B30)
@@ -228,7 +229,7 @@ val Sage = Color(0xFFE3E9DD)
                             "settings", "family" -> {
                                 item { Heading(stringResource(if (screen == "family") R.string.family_setup else R.string.settings)) }
                                 if (screen == "family") item { Text(stringResource(R.string.family_active), color = Muted, fontSize = 19.sp) }
-                                item { MoveButton(stringResource(R.string.text_size, ((state.preferences.textScale - 1f) * 100).toInt()), Modifier.focusRequester(first)) {
+                                item { MoveButton(stringResource(R.string.text_size, ((state.preferences.textScale - 1f) * 100).roundToInt()), Modifier.focusRequester(first)) {
                                     vm.preferences { it.copy(textScale = when (it.textScale) { 1f -> 1.15f; 1.15f -> 1.3f; else -> 1f }) }
                                 } }
                                 item { MoveButton(stringResource(R.string.captions_setting, onOff(state.preferences.captions))) { vm.preferences { it.copy(captions = !it.captions) } } }

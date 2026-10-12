@@ -24,6 +24,11 @@ class RenderedJourneyTest {
         val folder = File("../assets/screenshots/jvm").apply { mkdirs() }
         rule.onRoot().captureRoboImage(File(folder, "$name.png").absolutePath)
     }
+    private fun awaitText(text: String) {
+        rule.waitUntil(timeoutMillis = 10_000) {
+            rule.onAllNodesWithText(text).fetchSemanticsNodes().isNotEmpty()
+        }
+    }
     @Test fun renderHomeBrowseDraftAndConsent() {
         rule.onNodeWithText("Start a gentle session").assertIsFocused()
         capture("01-home-preview")
@@ -43,5 +48,31 @@ class RenderedJourneyTest {
         rule.onNodeWithText("Yes, help me with my settings").assertIsFocused()
         rule.onNodeWithText("Finish family setup").assertDoesNotExist()
         capture("05-family-consent")
+        rule.onNodeWithText("Yes, help me with my settings").performKeyInput { pressKey(Key.DirectionCenter) }
+        rule.onNode(hasScrollToIndexAction()).performScrollToNode(hasText("Finish family setup"))
+        rule.onNodeWithText("Finish family setup").performClick()
+        rule.onNodeWithText("Text size: +0%").performClick()
+        awaitText("Text size: +15%")
+        rule.onNodeWithText("Text size: +15%").performClick()
+        awaitText("Text size: +30%")
+        rule.onNodeWithText("Text size: +30%").assertExists()
+        rule.onNodeWithText("Text size: +30%").performClick()
+        awaitText("Text size: +0%")
+        rule.onNodeWithText("Gentle sessions", useUnmergedTree = true).performClick()
+        rule.onNodeWithText("A gentle seated start", substring = true).performKeyInput { pressKey(Key.DirectionCenter) }
+        rule.onNodeWithText("Save as a favourite").performClick()
+        awaitText("Remove favourite")
+        rule.onNodeWithText("Remove favourite").assertExists()
+        rule.onNodeWithText("Favourites", useUnmergedTree = true).performClick()
+        rule.onNodeWithText("A gentle seated start", substring = true).assertIsFocused()
+        rule.onNodeWithText("A gentle seated start", substring = true).performKeyInput { pressKey(Key.DirectionCenter) }
+        rule.onNodeWithText("Remove favourite").performClick()
+        awaitText("Save as a favourite")
+        rule.onNodeWithText("Settings", useUnmergedTree = true).performClick()
+        rule.onNode(hasScrollToIndexAction()).performScrollToNode(hasText("Delete local data"))
+        rule.onNodeWithText("Delete local data").performClick()
+        rule.onNodeWithText("Keep my data").assertIsFocused()
+        rule.onNodeWithText("Keep my data").performKeyInput { pressKey(Key.DirectionCenter) }
+        rule.onNodeWithText("Text size: +0%").assertExists()
     }
 }

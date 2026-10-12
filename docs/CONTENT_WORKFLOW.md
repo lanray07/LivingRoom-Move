@@ -2,6 +2,8 @@
 
 All current session records are DRAFT/placeholder with no movements, reviewer identity, safety scripts, video, captions or voice assets. This is intentional. Catalogue titles describe proposed sessions, not validated instructions.
 
+Use the [free-session production brief](FREE_SESSION_PRODUCTION_BRIEF.md) to commission the first reviewed library and specify the media handover. It is a production specification, not approved exercise content.
+
 For each session obtain a qualified UK exercise professional's scope-appropriate review, named reviewer/credentials, date and retained evidence reference. The professional must review movements, seated alternatives, contraindication notes, timing, safety prompts, footage and voice/caption scripts. A status field alone is not evidence; retain the underlying signed review record outside the app. Verify professional suitability and insurance with the owner.
 
 Obtain filmed demonstration/model releases and media distribution licences covering territories, languages, offline use and expiry. Narration must be human recorded and licensed. Use silent video plus matching audio and VTT tracks of equal duration. At publication, test track selection/alignment, reduced speed, captions, media errors and lifecycle interruption on target Fire TV hardware. Separate recording licences must cover every language asset.

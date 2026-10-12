@@ -36,6 +36,7 @@ Versioned catalogue, publication checks, ECDSA metadata verifier, translation dr
 
 - [Implementation plan](docs/IMPLEMENTATION_PLAN.md), [architecture](docs/ARCHITECTURE.md), [verification](docs/VERIFICATION.md).
 - [Official requirements research](docs/OFFICIAL_REQUIREMENTS.md), [billing blockers](docs/BILLING.md), [content review workflow](docs/CONTENT_WORKFLOW.md).
+- [Free-session production brief](docs/FREE_SESSION_PRODUCTION_BRIEF.md): commissioning scope, media handover and review evidence for the first free library.
 - [Asset manifest](assets/manifest.json), [asset rights](assets/RIGHTS.md), [localisation workflow](localisation/README.md).
 - [UK store listing](store/en-GB.json), [screenshot capture plan](store/SCREENSHOTS.md), [privacy draft](docs/PRIVACY_DRAFT.md), [terms draft](docs/TERMS_DRAFT.md).
 - [Manual QA](docs/QA.md), [release checklist](docs/RELEASE_CHECKLIST.md), [measurement plan](docs/MEASUREMENT.md), [known limitations](docs/KNOWN_LIMITATIONS.md).
