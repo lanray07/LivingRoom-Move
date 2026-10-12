@@ -1,0 +1,83 @@
+[
+  {
+    "file": "assets\\store\\icon-114.png",
+    "width": 114,
+    "height": 114,
+    "mode": "RGBA",
+    "sha256": "4903cda1217ec6fc4b5c0fe81e3f82fea6b023658c29bf29b9b0d523125418bb",
+    "status": "REVIEW_REQUIRED",
+    "source": "Original scripted identity and typography"
+  },
+  {
+    "file": "assets\\store\\icon-512.png",
+    "width": 512,
+    "height": 512,
+    "mode": "RGBA",
+    "sha256": "a0b6e750019b68a3e6ca23be8e3a1e7233183d66db2038b1eec0fc41be239971",
+    "status": "REVIEW_REQUIRED",
+    "source": "Original scripted identity and typography"
+  },
+  {
+    "file": "assets\\store\\fire-tv-icon-1280x720.png",
+    "width": 1280,
+    "height": 720,
+    "mode": "RGB",
+    "sha256": "9812ae6a3c15d3b659ed053dc62bdf7a735d0f33f689ae95eedaf55dc61d41ce",
+    "status": "REVIEW_REQUIRED",
+    "source": "Original scripted identity and typography"
+  },
+  {
+    "file": "assets\\store\\splash-1920x1080.png",
+    "width": 1920,
+    "height": 1080,
+    "mode": "RGB",
+    "sha256": "389b5b5e50e7c144021c15598153e74cab5801ff413c8721dddc50ae753974ba",
+    "status": "REVIEW_REQUIRED",
+    "source": "Original scripted identity and typography"
+  },
+  {
+    "file": "assets\\store\\fire-tv-background-1920x1080.png",
+    "width": 1920,
+    "height": 1080,
+    "mode": "RGB",
+    "sha256": "5add5e5ceb374d7bbfccc9fd888120fe0304aaa0c6d8057124e2618348c207b0",
+    "status": "REVIEW_REQUIRED",
+    "source": "AI-generated fictional non-instructional portrait"
+  },
+  {
+    "file": "assets\\store\\seated-foundations-cover.png",
+    "width": 1280,
+    "height": 720,
+    "mode": "RGB",
+    "sha256": "3c6b6ceddf43f531521b129ee74d7f572a41f3a7bc8d3c0391ca68db2a263144",
+    "status": "REVIEW_REQUIRED",
+    "source": "Original scripted identity and typography"
+  },
+  {
+    "file": "assets\\store\\everyday-mobility-cover.png",
+    "width": 1280,
+    "height": 720,
+    "mode": "RGB",
+    "sha256": "46223158375940f25c000750d08e3e7df383609e1082f744aba037dc14e565c7",
+    "status": "REVIEW_REQUIRED",
+    "source": "Original scripted identity and typography"
+  },
+  {
+    "file": "assets\\store\\session-cover.png",
+    "width": 1280,
+    "height": 720,
+    "mode": "RGB",
+    "sha256": "ec581ebf7244196ac1cd8b95654cdd8c2c7f23b68acc2365f39cabd9b6959f2c",
+    "status": "REVIEW_REQUIRED",
+    "source": "Original scripted identity and typography"
+  },
+  {
+    "file": "assets\\store\\empty-cover.png",
+    "width": 1280,
+    "height": 720,
+    "mode": "RGB",
+    "sha256": "599476fcd0a7fc18764c61842e4582343ba8e878d50bf789fd9cb769d5cc3dfc",
+    "status": "REVIEW_REQUIRED",
+    "source": "Original scripted identity and typography"
+  }
+]

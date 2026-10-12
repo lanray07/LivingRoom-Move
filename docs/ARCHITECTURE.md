@@ -1,0 +1,13 @@
+# Architecture
+
+`core` is a pure Kotlin/JVM module: serialisable content/state, publication and entitlement rules, signed metadata verification and unit tests. `app` contains platform adapters (`data`, `billing`), a constructor-injected graph and ViewModel, Compose TV UI and Media3 playback. This is a small two-module clean architecture; feature modules can be extracted without moving domain rules into Android.
+
+The application never prescribes routines from diagnoses. Preferences filter posture/duration only. Room is unnecessary for this small single-device catalogue; atomic DataStore edits persist settings, favourite IDs, safety version and per-session position/completion history. Backups are disabled. Errors reading local storage fall back to an empty state; no sensitive records are collected. The UI shows English catalogue fallback even when the English US interface is selected.
+
+The activity owns its graph; ViewModel owns coroutine writes. Playback owns its player and MediaSession and releases both on disposal. ON_STOP pauses and saves position. Captions use approved WebVTT; narration uses a separate human-recorded audio source merged with silent footage. Narration-speed adjustment changes the whole session speed to preserve alignment. Completion is written only on natural media end, and only for content passing the domain gate. Technical tests have no Workout and cannot create progress.
+
+Navigation is a saveable in-app screen stack with deterministic Back destinations. Foundation clickable controls provide native D-pad/Select handling and semantics; visible focus uses an amber outline plus a deep-green fill. TV Material text/theme are used with large buttons and vertical lists. Initial focus is assigned per screen. No horizontal carousels, hover controls or touchscreen-only flows. RTL uses start/end layout primitives and Android locale configuration; Arabic is not claimed as translated or tested.
+
+Commerce never trusts a client callback as entitlement evidence. The gateway is unavailable until authentication and backend receipt verification are configured. Premium playback is currently disabled even if metadata is approved, because verified entitlements do not yet exist.
+
+Remote metadata verification is a domain utility, not a deployed content service. Only bundled catalogue data is currently loaded. Before connecting an updater, pin the public key, verify exact-byte signatures, enforce monotonic versions/expiry and install atomically. Keep a previously verified catalogue as a controlled local rollback. Never download executable code or embed admin/private signing keys.

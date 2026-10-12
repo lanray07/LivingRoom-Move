@@ -1,0 +1,317 @@
+{
+  "schemaVersion": 1,
+  "version": 1,
+  "expiresAt": null,
+  "workouts": [
+    {
+      "id": "chair-introduction",
+      "title": "A gentle seated start",
+      "description": "Planning placeholder. Movement, safety, narration and media await qualified professional review.",
+      "durationMinutes": 5,
+      "difficulty": "Beginner (proposed)",
+      "posture": "SEATED",
+      "category": "chair",
+      "language": "en-GB",
+      "programmeId": null,
+      "review": {
+        "status": "DRAFT",
+        "date": null,
+        "reviewer": null,
+        "credentials": null,
+        "evidenceId": null
+      },
+      "contraindicationNotes": [],
+      "safetyPrompts": [],
+      "movements": [],
+      "videoUri": null,
+      "voices": [],
+      "licence": {
+        "reference": "",
+        "offlineAllowed": false,
+        "expiresAt": null
+      },
+      "placeholder": true
+    },
+    {
+      "id": "chair-everyday",
+      "title": "Your seated everyday routine",
+      "description": "Planning placeholder. Movement, safety, narration and media await qualified professional review.",
+      "durationMinutes": 10,
+      "difficulty": "Beginner (proposed)",
+      "posture": "SEATED",
+      "category": "chair",
+      "language": "en-GB",
+      "programmeId": null,
+      "review": {
+        "status": "DRAFT",
+        "date": null,
+        "reviewer": null,
+        "credentials": null,
+        "evidenceId": null
+      },
+      "contraindicationNotes": [],
+      "safetyPrompts": [],
+      "movements": [],
+      "videoUri": null,
+      "voices": [],
+      "licence": {
+        "reference": "",
+        "offlineAllowed": false,
+        "expiresAt": null
+      },
+      "placeholder": true
+    },
+    {
+      "id": "chair-unhurried",
+      "title": "An unhurried seated session",
+      "description": "Planning placeholder. Movement, safety, narration and media await qualified professional review.",
+      "durationMinutes": 15,
+      "difficulty": "Beginner (proposed)",
+      "posture": "SEATED",
+      "category": "chair",
+      "language": "en-GB",
+      "programmeId": null,
+      "review": {
+        "status": "DRAFT",
+        "date": null,
+        "reviewer": null,
+        "credentials": null,
+        "evidenceId": null
+      },
+      "contraindicationNotes": [],
+      "safetyPrompts": [],
+      "movements": [],
+      "videoUri": null,
+      "voices": [],
+      "licence": {
+        "reference": "",
+        "offlineAllowed": false,
+        "expiresAt": null
+      },
+      "placeholder": true
+    },
+    {
+      "id": "mobility-short",
+      "title": "A little time for mobility",
+      "description": "Planning placeholder. Movement, safety, narration and media await qualified professional review.",
+      "durationMinutes": 5,
+      "difficulty": "Beginner (proposed)",
+      "posture": "SEATED",
+      "category": "mobility",
+      "language": "en-GB",
+      "programmeId": null,
+      "review": {
+        "status": "DRAFT",
+        "date": null,
+        "reviewer": null,
+        "credentials": null,
+        "evidenceId": null
+      },
+      "contraindicationNotes": [],
+      "safetyPrompts": [],
+      "movements": [],
+      "videoUri": null,
+      "voices": [],
+      "licence": {
+        "reference": "",
+        "offlineAllowed": false,
+        "expiresAt": null
+      },
+      "placeholder": true
+    },
+    {
+      "id": "mobility-everyday",
+      "title": "Everyday mobility",
+      "description": "Planning placeholder. Movement, safety, narration and media await qualified professional review.",
+      "durationMinutes": 10,
+      "difficulty": "Beginner (proposed)",
+      "posture": "MIXED",
+      "category": "mobility",
+      "language": "en-GB",
+      "programmeId": null,
+      "review": {
+        "status": "DRAFT",
+        "date": null,
+        "reviewer": null,
+        "credentials": null,
+        "evidenceId": null
+      },
+      "contraindicationNotes": [],
+      "safetyPrompts": [],
+      "movements": [],
+      "videoUri": null,
+      "voices": [],
+      "licence": {
+        "reference": "",
+        "offlineAllowed": false,
+        "expiresAt": null
+      },
+      "placeholder": true
+    },
+    {
+      "id": "mobility-long",
+      "title": "Space to move gently",
+      "description": "Planning placeholder. Movement, safety, narration and media await qualified professional review.",
+      "durationMinutes": 15,
+      "difficulty": "Beginner (proposed)",
+      "posture": "MIXED",
+      "category": "mobility",
+      "language": "en-GB",
+      "programmeId": null,
+      "review": {
+        "status": "DRAFT",
+        "date": null,
+        "reviewer": null,
+        "credentials": null,
+        "evidenceId": null
+      },
+      "contraindicationNotes": [],
+      "safetyPrompts": [],
+      "movements": [],
+      "videoUri": null,
+      "voices": [],
+      "licence": {
+        "reference": "",
+        "offlineAllowed": false,
+        "expiresAt": null
+      },
+      "placeholder": true
+    },
+    {
+      "id": "balance-introduction",
+      "title": "Getting started with balance",
+      "description": "Planning placeholder. Movement, safety, narration and media await qualified professional review.",
+      "durationMinutes": 5,
+      "difficulty": "Beginner (proposed)",
+      "posture": "STANDING",
+      "category": "balance",
+      "language": "en-GB",
+      "programmeId": null,
+      "review": {
+        "status": "DRAFT",
+        "date": null,
+        "reviewer": null,
+        "credentials": null,
+        "evidenceId": null
+      },
+      "contraindicationNotes": [],
+      "safetyPrompts": [],
+      "movements": [],
+      "videoUri": null,
+      "voices": [],
+      "licence": {
+        "reference": "",
+        "offlineAllowed": false,
+        "expiresAt": null
+      },
+      "placeholder": true
+    },
+    {
+      "id": "balance-supported",
+      "title": "Supported beginner balance",
+      "description": "Planning placeholder. Movement, safety, narration and media await qualified professional review.",
+      "durationMinutes": 10,
+      "difficulty": "Beginner (proposed)",
+      "posture": "STANDING",
+      "category": "balance",
+      "language": "en-GB",
+      "programmeId": null,
+      "review": {
+        "status": "DRAFT",
+        "date": null,
+        "reviewer": null,
+        "credentials": null,
+        "evidenceId": null
+      },
+      "contraindicationNotes": [],
+      "safetyPrompts": [],
+      "movements": [],
+      "videoUri": null,
+      "voices": [],
+      "licence": {
+        "reference": "",
+        "offlineAllowed": false,
+        "expiresAt": null
+      },
+      "placeholder": true
+    },
+    {
+      "id": "balance-unhurried",
+      "title": "Balance at your own pace",
+      "description": "Planning placeholder. Movement, safety, narration and media await qualified professional review.",
+      "durationMinutes": 15,
+      "difficulty": "Beginner (proposed)",
+      "posture": "STANDING",
+      "category": "balance",
+      "language": "en-GB",
+      "programmeId": null,
+      "review": {
+        "status": "DRAFT",
+        "date": null,
+        "reviewer": null,
+        "credentials": null,
+        "evidenceId": null
+      },
+      "contraindicationNotes": [],
+      "safetyPrompts": [],
+      "movements": [],
+      "videoUri": null,
+      "voices": [],
+      "licence": {
+        "reference": "",
+        "offlineAllowed": false,
+        "expiresAt": null
+      },
+      "placeholder": true
+    },
+    {
+      "id": "chair-week-one",
+      "title": "Week one: a comfortable beginning",
+      "description": "Planning placeholder. Movement, safety, narration and media await qualified professional review.",
+      "durationMinutes": 10,
+      "difficulty": "Beginner (proposed)",
+      "posture": "SEATED",
+      "category": "chair",
+      "language": "en-GB",
+      "programmeId": "seated-foundations",
+      "review": {
+        "status": "DRAFT",
+        "date": null,
+        "reviewer": null,
+        "credentials": null,
+        "evidenceId": null
+      },
+      "contraindicationNotes": [],
+      "safetyPrompts": [],
+      "movements": [],
+      "videoUri": null,
+      "voices": [],
+      "licence": {
+        "reference": "",
+        "offlineAllowed": false,
+        "expiresAt": null
+      },
+      "placeholder": true
+    }
+  ],
+  "programmes": [
+    {
+      "id": "seated-foundations",
+      "title": "Seated foundations",
+      "weeks": 4,
+      "description": "A proposed four-week programme. Sessions and weekly assignments await review.",
+      "workoutIds": [
+        "chair-week-one"
+      ],
+      "placeholder": true
+    },
+    {
+      "id": "everyday-mobility",
+      "title": "Everyday ease",
+      "weeks": 4,
+      "description": "A proposed four-week mobility programme. Content is being planned.",
+      "workoutIds": [],
+      "placeholder": true
+    }
+  ]
+}

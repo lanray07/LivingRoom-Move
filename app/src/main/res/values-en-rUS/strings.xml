@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">LivingRoom Move</string>
+    <string name="brand_note">A little movement. A little you-time.</string>
+    <string name="tagline">Gentle movement. Right from your living room.</string>
+    <string name="home">Home</string>
+    <string name="sessions">Gentle sessions</string>
+    <string name="programmes">My programs</string>
+    <string name="favourites">Favorites</string>
+    <string name="progress">Progress</string>
+    <string name="settings">Settings</string>
+    <string name="remote_hint">Use the arrows to explore. Select to choose. Back to return.</string>
+    <string name="greeting">WELCOME TO YOUR OWN PACE</string>
+    <string name="hero_title">A softer start.
+A moment for you.</string>
+    <string name="start_gentle">Start a gentle session</string>
+    <string name="chair">Chair-supported movement</string>
+    <string name="mobility">Mobility &amp; flexibility</string>
+    <string name="balance">Beginner balance</string>
+    <string name="draft_notice">Preview catalogue • Sessions await professional review and licensed media.</string>
+    <string name="reminder_message">If you feel like it, there is time for a gentle session. There is no schedule to keep.</string>
+    <string name="empty_sessions">Nothing here yet. Try a different duration or position, or save a favourite from Gentle sessions.</string>
+    <string name="clear_filters">Show all durations and positions</string>
+    <string name="session_meta">%1$s · %2$s</string>
+    <string name="draft_badge">DRAFT · Awaiting review</string>
+    <string name="approved_badge">Reviewed session</string>
+    <string name="draft_detail">This session is a planning placeholder. It has no approved exercise instructions, narration or video yet. Playback is unavailable until a qualified exercise professional has reviewed it and media rights are recorded.</string>
+    <string name="add_favourite">Save as a favorite</string>
+    <string name="remove_favourite">Remove favorite</string>
+    <string name="play_session">Play free session</string>
+    <string name="back_sessions">Back to sessions</string>
+    <string name="before_start">Before you begin</string>
+    <string name="safety_text">Choose a clear, comfortable space. If using a chair, use a stable chair without wheels. Move at a pace that feels comfortable and stop if you feel unwell or uncomfortable. If you are unsure whether a session is suitable for you, seek advice from a qualified professional.
+
+This general information needs professional review before release. We will remember your acknowledgement on this device.</string>
+    <string name="safety_accept">I have read this · Continue</string>
+    <string name="back">Back</string>
+    <string name="test_complete">Playback test complete</string>
+    <string name="session_complete">Time well spent</string>
+    <string name="test_no_progress">Technical audio test only. No exercise instruction. This does not count towards workout progress.</string>
+    <string name="completion_text">Your session has been saved on this device. Take your time before choosing what comes next.</string>
+    <string name="replay">Replay from start</string>
+    <string name="programme_intro">Four weeks, at your own pace. Programme content is not available yet.</string>
+    <string name="programme_draft">PLANNING DRAFT · Not for sale</string>
+    <string name="view_membership">Membership information</string>
+    <string name="membership">More room to move</string>
+    <string name="billing_unavailable">Membership is not available in this preview. You will not be charged. Free starter sessions will not require a subscription.</string>
+    <string name="test_prices">Proposed UK test offers: £4.99 monthly or £29.99 annually. These are planning prices, not live purchase offers.</string>
+    <string name="renewal_draft">Release disclosure draft: subscriptions renew automatically at the Amazon-displayed price until cancelled. Manage renewal through your Amazon account. Final terms, billing period and cancellation wording require review before sale.</string>
+    <string name="restore">Restore Amazon purchases</string>
+    <string name="restore_unavailable">Restoring purchases is not available in this preview. No payment or membership has been changed.</string>
+    <string name="back_programmes">Back to programmes</string>
+    <string name="empty_progress">Your completed sessions will appear here. You can return whenever it suits you. Drafts and playback tests are not counted.</string>
+    <string name="family_setup">Family setup</string>
+    <string name="family_active">With permission, help choose comfortable settings. Changes are saved on this television. There is no remote monitoring.</string>
+    <string name="text_size">Text size: +%1$d%%</string>
+    <string name="captions_setting">Captions: %1$s</string>
+    <string name="speed_setting">Narration and video speed: %1$.2f×</string>
+    <string name="motion_setting">Reduced motion: %1$s</string>
+    <string name="posture_setting">Preferred position: %1$s</string>
+    <string name="any_position">Any position</string>
+    <string name="duration_setting">Preferred duration: %1$s</string>
+    <string name="any_duration">Any duration</string>
+    <string name="reminder_setting">Gentle welcome reminder: %1$s</string>
+    <string name="language_setting">Language: %1$s</string>
+    <string name="language_drafts">French, German, Spanish, Italian, Portuguese and Dutch are prepared for translation review. English is used until reviewed translations are available.</string>
+    <string name="delete_data">Delete local data</string>
+    <string name="technical_test">Developer playback test</string>
+    <string name="privacy_summary">Your preferences, favourites and progress stay on this device. No diagnoses, tracking, analytics uploads or accounts are collected. Delete local data whenever you choose.</string>
+    <string name="finish_family">Finish family setup</string>
+    <string name="family_consent">Would you like someone you trust to help with settings? Continue only with your permission. They can adjust text, captions, speed and preferences here. Nothing is shared and nobody can monitor you remotely.</string>
+    <string name="family_agree">Yes, help me with my settings</string>
+    <string name="delete_confirmation">This removes preferences, favourites, progress and your safety acknowledgement from this device. Amazon purchases are managed separately.</string>
+    <string name="keep_data">Keep my data</string>
+    <string name="delete_confirm">Delete data on this device</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="seated">Seated</string>
+    <string name="standing">Standing</string>
+    <string name="mixed">Seated &amp; standing</string>
+    <string name="playback_time">%1$d of %2$d seconds</string>
+    <string name="buffering">Preparing playback…</string>
+    <string name="playback_error">Playback was interrupted. Check your connection or try again. Your place is saved; the session has not been marked complete.</string>
+    <string name="retry">Try playback again</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Resume</string>
+    <string name="narration_setting">Narration: %1$s</string>
+    <plurals name="minutes">
+        <item quantity="one">%1$d minute</item>
+        <item quantity="other">%1$d minutes</item>
+    </plurals>
+    <plurals name="progress_total">
+        <item quantity="one">%1$d completed session</item>
+        <item quantity="other">%1$d completed sessions</item>
+    </plurals>
+</resources>

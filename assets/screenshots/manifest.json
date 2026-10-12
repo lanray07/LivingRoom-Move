@@ -1,0 +1,52 @@
+[
+  {
+    "file": "assets\\screenshots\\review\\01-home-preview.png",
+    "source": "assets\\screenshots\\jvm\\01-home-preview.png",
+    "capture": "Actual Kotlin app, Android JVM native graphics, API34, xhdpi",
+    "physicalFireTV": false,
+    "status": "ENGINEERING_PREVIEW_REQUIRES_REVIEW",
+    "width": 1920,
+    "height": 1080,
+    "sha256": "f17a0baa51f45d3959ccc21b5a2a13f76e7b96725b6c8278a921a33f45c16df2"
+  },
+  {
+    "file": "assets\\screenshots\\review\\02-sessions-drafts.png",
+    "source": "assets\\screenshots\\jvm\\02-sessions-drafts.png",
+    "capture": "Actual Kotlin app, Android JVM native graphics, API34, xhdpi",
+    "physicalFireTV": false,
+    "status": "ENGINEERING_PREVIEW_REQUIRES_REVIEW",
+    "width": 1920,
+    "height": 1080,
+    "sha256": "16198d05872ea9baa9e81ba0618944c95e4b79a312cabb22a0ae5e4e5a922c6a"
+  },
+  {
+    "file": "assets\\screenshots\\review\\03-draft-detail.png",
+    "source": "assets\\screenshots\\jvm\\03-draft-detail.png",
+    "capture": "Actual Kotlin app, Android JVM native graphics, API34, xhdpi",
+    "physicalFireTV": false,
+    "status": "ENGINEERING_PREVIEW_REQUIRES_REVIEW",
+    "width": 1920,
+    "height": 1080,
+    "sha256": "5fddf4793680197b8e8c22370cd77f712ddc3ab01d3f32a87e76bc0798a5a289"
+  },
+  {
+    "file": "assets\\screenshots\\review\\04-settings.png",
+    "source": "assets\\screenshots\\jvm\\04-settings.png",
+    "capture": "Actual Kotlin app, Android JVM native graphics, API34, xhdpi",
+    "physicalFireTV": false,
+    "status": "ENGINEERING_PREVIEW_REQUIRES_REVIEW",
+    "width": 1920,
+    "height": 1080,
+    "sha256": "feb125ea2dc9b97463edf518143f9c0fd7e8739cd3c2539079132ed4c8af8efb"
+  },
+  {
+    "file": "assets\\screenshots\\review\\05-family-consent.png",
+    "source": "assets\\screenshots\\jvm\\05-family-consent.png",
+    "capture": "Actual Kotlin app, Android JVM native graphics, API34, xhdpi",
+    "physicalFireTV": false,
+    "status": "ENGINEERING_PREVIEW_REQUIRES_REVIEW",
+    "width": 1920,
+    "height": 1080,
+    "sha256": "a153b0561f577d5630a286844abf117b0c80b0f988ed4c54790a43582eb97253"
+  }
+]

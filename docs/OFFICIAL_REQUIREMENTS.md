@@ -1,0 +1,15 @@
+# Official requirements checked on 12 October 2026
+
+The following are primary-source links; recheck at release and verify availability on specific target models.
+
+- [Amazon device identification](https://www.developer.amazon.com/docs/device-specs/identify-fire-tv-devices.html): Fire OS spans Android API 22 through newer Android-based versions. Chosen floor 25 supports Fire OS 6+; API 22 devices are intentionally excluded. Target/compile 36 is the highest installed stable platform. Check model eligibility in the console.
+- [Amazon submission](https://developer.amazon.com/docs/app-submission/submitting-apps-to-amazon-appstore.html): Android APK/AAB and Vega packages are distinct; physical-device testing is required. This project ships no Vega binary.
+- [Fire TV multimedia requirements](https://developer.amazon.com/docs/fire-tv/multimedia-app-requirements.html): handle lifecycle, audio focus and media sessions. That page's API-28 target example is older than the current device matrix; do not treat it as a present API ceiling.
+- [TV Material release notes](https://developer.android.com/jetpack/androidx/releases/tv): pin 1.0.1, including the lower-API ExoPlayer rendering fix.
+- [Media3 release notes](https://developer.android.com/jetpack/androidx/releases/media3): pin 1.6.1 for this tested baseline, rather than accidentally released 1.7.0. This is a deliberate stable baseline, not a claim to use the latest version.
+- [AGP 8.11 compatibility](https://developer.android.com/build/releases/agp-8-11-0-release-notes): API 36, Gradle 8.13, JDK 17. Pin AGP 8.11.1/Kotlin 2.1.20. Build tools 36.0.0 are installed.
+- [Amazon SDK integration](https://developer.amazon.com/docs/appstore-sdk/integrate-appstore-sdk.html): Maven Central `com.amazon.device:amazon-appstore-sdk:3.0.9` and app-specific `AppstoreAuthenticationKey.pem`. Key not supplied.
+- [IAP implementation](https://developer.amazon.com/docs/in-app-purchasing/iap-implement-iap.html): product data provides localised pricing; reset=true restores full history and pagination must be processed. Verify receipts before fulfilment.
+- [RVS](https://developer.amazon.com/docs/in-app-purchasing/iap-rvs-for-android-apps.html), [testing](https://developer.amazon.com/docs/in-app-purchasing/iap-testing-overview.html): backend validation and App Tester/live-app testing are release gates.
+
+[Appstore Details](https://developer.amazon.com/docs/app-submission/appstore-details.html) specifies Fire TV icon 1280×720 opaque PNG, screenshots 1920×1080 JPG/24-bit opaque PNG (3–10), and background 1920×1080 without logos. Website/tablet icons: 114 and 512 square. Long description: 4,000 characters. Short description: 2,000 bytes; first 200 characters appear on Fire TV. Use 3–5 feature bullets. Dynamic IAP prices must come from product data. The cited page gives no numeric display-title or keyword limit; verify console fields instead of inventing limits. Check locale choices in the console before upload; requested draft languages do not guarantee every store surface supports them.
